@@ -8,12 +8,13 @@
 }
 
 .fm-heading {
-	margin-top: 20vh;
+	margin: 0;
+	padding: 40vh 0 0 0;
 }
 
 .fm-container {
 	padding: 0;
-	margin-top: 40vh;
+	margin:  0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -26,13 +27,17 @@
 
 	.fm-heading {
 		line-height: 10vh;
-		margin-top: 20vh;
+		padding-top: 20vh;
 		font-size: 5em;
 	}
 
 	.fm-sub-heading {
 		font-size: 1.65em;
 		line-height: 10vh;
+	}
+
+	.fm-container {
+		margin: 0;
 	}
 
 }
