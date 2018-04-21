@@ -3,7 +3,7 @@
 }
 
 .fm-button {
-	margin-top: 10vh;
+	margin: 10vh 2vw 0 2vw;
 	padding: 15px 30px;
 }
 
@@ -15,7 +15,14 @@
 .fm-container {
 	padding: 0;
 	margin:  0;
+/*	background-color: rgba(0,0,0,0.8);*/
 }
+
+/*.fm-coverimage {
+	background-image: url('../img/recipe1.jpg');
+	background-size: cover;
+	color: white;
+}*/
 
 @media only screen and (min-width: 768px) {
 	.fm-button {
