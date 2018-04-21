@@ -5,6 +5,7 @@
 .fm-button {
 	margin: 10vh 2vw 0 2vw;
 	padding: 15px 30px;
+	border-radius: 0;
 }
 
 .fm-heading {
