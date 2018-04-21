@@ -1,6 +1,38 @@
-.foodmate_footer {
-	background-color: #343a40;
-	margin: 0;
-	padding: 1rem 0;
-	color: white;
+.fm-100vh {
+	height: 100vh;
+}
+
+.fm-button {
+	margin-top: 10vh;
+	padding: 15px 30px;
+}
+
+.fm-heading {
+	margin-top: 20vh;
+}
+
+.fm-container {
+	padding: 0;
+	margin-top: 40vh;
+}
+
+@media only screen and (min-width: 768px) {
+	.fm-button {
+		line-height: 0.2em;
+		padding: 2em;
+		margin-top: 20vh;
+		font-size: 1.5em;
+	}
+
+	.fm-heading {
+		line-height: 10vh;
+		margin-top: 20vh;
+		font-size: 5em;
+	}
+
+	.fm-sub-heading {
+		font-size: 1.65em;
+		line-height: 10vh;
+	}
+
 }
