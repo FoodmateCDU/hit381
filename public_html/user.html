@@ -11,31 +11,54 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <!-- Foodmate custom styles -->
+  <link rel="stylesheet" href="css/foodmate.css">
   <meta name="viewport" content="720, initial-scale=1">
 </head>
 <body>
   <body class="fixed-sn light-blue-skin">
     <header>
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+      <!--<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Foodmate</button>
+          <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Foodmate</button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <button class="btn btn-secondary dropdown-toggle" type="button"	id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Recipes</button>
-            <a class="dropdown-item" href="recipe-manage.html">My Recipes</a>
-            <a class="dropdown-item" href="recipe-new.html">Add new recipe</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="recipe-manage.html">My Recipes</a>
+              <a class="dropdown-item" href="recipe-new.html">Add new recipe</a>
+            </div>
             <button class="btn btn-secondary dropdown-toggle" type="button"	id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Shopping Lists</button>
-            <a class="dropdown-item" href="shopping-manage.html">Shopping Lists</a>
-            <a class="dropdown-item" href="shopping-new.html">New Shopping List </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="shopping-manage.html">Shopping Lists</a>
+              <a class="dropdown-item" href="shopping-new.html">New Shopping List </a>
+            </div>
             <button class="btn btn-secondary dropdown-toggle" type="button"	id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Inventory</button>
-            <a class="dropdown-item" href="inventory-manage.html">Fridge and Pantry</a>
-            <a class="dropdown-item" href="generate.html">Generate Recipe</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="inventory-manage.html">Fridge and Pantry</a>
+              <a class="dropdown-item" href="generate.html">Generate Recipe</a>
+            </div>
           </div>
+        </div>-->
+
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="fm-brand">
+          <img class="fm-brand-img" src="img/foodmatelogo.svg" alt="Foodmate">
         </div>
+        <div class="fm-menu">
+          <a class="fm-menu-item" href="recipe-manage.html">Recipes</a>
+          <!--<a class="fm-menu-item" href="recipe-new.html">Add new recipe</a>-->
+          <a class="fm-menu-item" href="shopping-manage.html">Lists</a>
+          <!--<a class="fm-menu-item" href="shopping-new.html">New Shopping List </a>-->
+          <a class="fm-menu-item" href="inventory-manage.html">Inventory</a>
+          <!--<a class="fm-menu-item" href="generate.html">Generate Recipe</a>-->
+        </div>
+<!--
         <ul class="navbar-nav ml-auto">
           <a href="TestIndex.html"style="width:50px">
-            <img class="card-img-top" src="img/foodmatelogo.png" alt="Card image">
+            <img class="card-img-top" src="img/foodmatelogo.png" alt="Foodmate">
           </a>
-        </ul>
+        </ul>-->
       </nav>
     </header>
 

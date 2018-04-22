@@ -19,6 +19,37 @@
 /*	background-color: rgba(0,0,0,0.8);*/
 }
 
+div.fm-menu {
+	color: white;
+	overflow: hidden;
+	white-space: nowrap;
+	margin: auto;
+}
+
+div.fm-menu a {
+	display: inline-block;
+	text-align: center;
+	padding: 14px;
+  text-decoration: none;
+}
+
+.fm-menu-item {
+	color: white;
+
+}
+
+.fm-brand {
+
+}
+
+.fm-brand-img {
+	max-height:40px;
+	text-align: center;
+	margin: auto;
+	display: block;
+	width: 100%;
+}
+
 /*.fm-coverimage {
 	background-image: url('../img/recipe1.jpg');
 	background-size: cover;
@@ -47,5 +78,14 @@
 	.fm-container {
 		margin: 0;
 	}
+
+	div.fm-menu {
+		margin-right: 0;
+	}
+	div.fm-brand {
+		text-align: left;
+
+	}
+
 
 }
