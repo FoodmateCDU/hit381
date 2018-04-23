@@ -10,11 +10,12 @@
 
 .fm-heading {
 	margin: 0;
-	padding: 40vh 0 0 0;
+	padding: 20vh 0 0 0;
 }
 
 .fm-container {
 	margin-top: 30px;
+	padding: 0 20px 0 20px;
 /*	background-color: rgba(0,0,0,0.8);*/
 }
 
@@ -58,11 +59,6 @@ div.fm-menu a {
 	margin: 16px;
 	font-size: 1.6em;
 	color: grey;
-	/*
-	position: fixed;
-	top: 0;
-	left: 0;
-	*/
 	z-index:1000;
 	background-color: white;
 }
@@ -71,32 +67,18 @@ div.fm-menu a {
 	background-color: white;
 }
 
-/*
-.toggle-button {
-	border: solid 1px grey;
-	border-radius: 2px;
-	padding: 5px;
-	margin: 8px;
-	font-size: 1.6em;
-	color: grey;
-}
-.slide-header {
+/*Popovers */
 
+.popover {
+	z-index: 1100;
 }
 
-.slide-color {
-	background-color:#ff0000;
+/*Login form*/
+.form-hidden {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.5s linear;
 }
-
-.menu-section {
-		color:#ffffff;
-}
-
-panel {
-	float:right;
-	background-color:#ff000;
-	position:absolute;
-}*/
 
 /* This is the Desktop CSS */
 
@@ -130,6 +112,17 @@ panel {
 		text-align: left;
 
 	}
+	.slideout-panel {
+    margin-left: 256px;
+  }
+
+  .slideout-menu {
+    display: block;
+  }
+
+  .toggle-button {
+    display: none;
+  }
 
 
 }
