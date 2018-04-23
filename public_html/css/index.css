@@ -9,7 +9,7 @@ body {
   top: 0;
   bottom: 0;
   right: 0;
-  z-index: 0;
+  z-index: 199;
   width: 256px;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
@@ -18,7 +18,7 @@ body {
 
 .slideout-panel {
   position: relative;
-  z-index: 1;
+  z-index: 200;
   will-change: transform;
   min-height:100vh;
   float:left;
