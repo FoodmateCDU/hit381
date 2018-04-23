@@ -14,8 +14,7 @@
 }
 
 .fm-container {
-	padding: 0;
-	margin:  0;
+	margin-top: 30px;
 /*	background-color: rgba(0,0,0,0.8);*/
 }
 
@@ -50,11 +49,56 @@ div.fm-menu a {
 	width: 100%;
 }
 
-/*.fm-coverimage {
-	background-image: url('../img/recipe1.jpg');
-	background-size: cover;
-	color: white;
+/* SLideout Stuff. */
+
+.toggle-button {
+	border: solid 1px grey;
+	border-radius: 2px;
+	padding: 6px;
+	margin: 16px;
+	font-size: 1.6em;
+	color: grey;
+	/*
+	position: fixed;
+	top: 0;
+	left: 0;
+	*/
+	z-index:1000;
+	background-color: white;
+}
+
+.fm-panel {
+	background-color: white;
+}
+
+/*
+.toggle-button {
+	border: solid 1px grey;
+	border-radius: 2px;
+	padding: 5px;
+	margin: 8px;
+	font-size: 1.6em;
+	color: grey;
+}
+.slide-header {
+
+}
+
+.slide-color {
+	background-color:#ff0000;
+}
+
+.menu-section {
+		color:#ffffff;
+}
+
+panel {
+	float:right;
+	background-color:#ff000;
+	position:absolute;
 }*/
+
+/* This is the Desktop CSS */
 
 @media only screen and (min-width: 768px) {
 	.fm-button {
@@ -89,24 +133,3 @@ div.fm-menu a {
 
 
 }
-
-/* SLideout Stuff. */
-.slide-header {
-
-}
-
-.slide-color {
-	background-color:#ff0000;
-}
-
-.menu-section {
-		color:#ffffff;
-}
-
-panel {
-	float:right;
-	background-color:#ff000;
-	position:absolute;
-}
-
-

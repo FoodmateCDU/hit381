@@ -15,7 +15,9 @@
 	  <!-- Foodmate custom styles -->
 	  <link rel="stylesheet" href="css/foodmate.css">
 	  <!-- Slidout Nav CSS -->
-	  <link rel="stylesheet" href="css/index.css">
+	  <link rel="stylesheet" href="css/vendor/slideout.css">
+		<!-- Fontawesome -->
+		<link rel="stylesheet" href="css/vendor/fontawesome-all.min.css">
 	  <meta name="viewport" content="720, initial-scale=1">
 	</head>
 	'; // End Echo
