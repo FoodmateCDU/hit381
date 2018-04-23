@@ -20,7 +20,7 @@ body {
   position: relative;
   z-index: 200;
   will-change: transform;
-  min-height:100vh;
+  min-height:100vh; 
   float:left;
 }
 
@@ -40,9 +40,7 @@ body {
 	color:#ffffff;
 }
 
-.panel {
-  text-align: center;
-  padding-top: 5px;
-  padding-left: 5px;
-  min-height: 100%;
+.nav-spacer {
+	float:left;
+	position:absolute;
 }

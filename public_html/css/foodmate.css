@@ -103,4 +103,10 @@ div.fm-menu a {
 		color:#ffffff;
 }
 
+panel {
+	float:right;
+	background-color:#ff000;
+	position:absolute;
+}
+
 
