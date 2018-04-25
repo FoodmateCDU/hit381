@@ -112,15 +112,16 @@ div.fm-menu a {
 		text-align: left;
 
 	}
-	.slideout-panel {
+	main.slideout-panel {
     margin-left: 256px;
+		margin-right: 256px;
   }
 
-  .slideout-menu {
+  nav.slideout-menu {
     display: block;
   }
 
-  .toggle-button {
+  i.toggle-button {
     display: none;
   }
 
